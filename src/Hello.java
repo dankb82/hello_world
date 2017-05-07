@@ -6,7 +6,12 @@ public class Hello {
         String firstName = "Daniel";
         System.out.println("Hello " + firstName);
 
-        int myFirstNumber = 5;
-        System.out.println(myFirstNumber);
+        int myFirstNumber = (10 + 5) + (2 * 10);
+        int mySecondNumber = 12;
+        int myThirdNumber = myFirstNumber * 2;
+        int myTotal = myFirstNumber + mySecondNumber + myThirdNumber;
+        int difference = 1000 - myTotal;
+
+        System.out.println(difference);
     }
 }
